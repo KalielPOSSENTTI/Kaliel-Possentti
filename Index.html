@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Atividade3.css">
+  </head>
+  <body>
+    <main>
+    <h2 class="h2"> Atividade </h2>
+
+    <form>
+
+        <label for="nomesobrenome"> Nome e Sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Seu nome completo">
+
+        <label for="email"> Email</label>
+        <input type="email" id="email" class="input-padrao"required placeholder="seuemail@dominio.com">
+
+        <label for="telefone"> Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao"required placeholder="(XX) XXXXX-XXXX">
+
+        <label for="rg"> RG</label>
+        <input type="rg" id="telefone" class="input-padrao"required placeholder="Seu RG">
+
+        <label for="cidade">Cidade</label>
+        <input type="cidade" id="cidade" class="input-padrao"required placeholder="Sua cidade">
+
+
+        <fieldset>
+          <legend>Qual time você prefere?</legend>
+          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Palmeiras</label>
+          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Vasco</label>
+          <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Bragantino</label>
+        </fieldset>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Negócio</th>
+              <th>Coisas</th>
+              <th>Bagulhos</th>
+            </tr>
+          </thead>
+          <tbody>
+             <tr>
+              <td>Carro</td>
+              <td>Pneu</td>
+              <td>Farol</td>
+            </tr>
+            <tr>
+              <td>Casa</td>
+              <td>Sofá</td>
+              <td>TV</td>
+            </tr>
+            <tr>
+              <td>Cor</td>
+              <td>Preto</td>
+              <td>Azul</td>
+            </tr>
+            <tr>
+              <td>Comida</td>
+              <td>Doce de Goiaba</td>
+              <td>Feijão</td>
+            </tr>
+            <tr>
+              <td>Escola</td>
+              <td>Caderno</td>
+              <td>Lápis</td>
+            </tr>
+      </tbody>
+        </table>
+        <input type="submit" value="Enviar formulário" class="enviar">
